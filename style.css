@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	height: 100vh;
+	background-color: rgba(0,0,0,0.8);
+	}
+
+.videobg{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -2;
+}
+
+.welcome{
+	position: relative;
+	text-align: center;
+	font-family: monospace;
+	color: white;
+	top: 150px;
+
+}
+
+.welcome h1{
+	font-size: 80px;
+	font-weight: 100;
+	letter-spacing: 5px;
+	margin-bottom: 30px;
+}
+
+.bttn{
+	font-size:30px;
+	text-decoration: none;
+	border: solid 2px blue;
+	margin-left: 20px;
+
+}
+
+.bttn:hover{
+	background: blue;
+	color: white;
+	text-decoration: none;
+}
+
+
+.navi{
+	font-size: 30px
+}
+
+nav{
+	text-align: right;
+	background: black;
+	height: 8vh;
+}
+
+.bar{
+	padding-left: 30px;
+	color: white;
+
+}
+
+.bar:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.bar:active{
+	color: blue;
+}
+
+.btn{
+	text-decoration: none;
+	border: groove black 2px;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+
+button{
+	margin-left: 250px;
+}
+
+.btn:hover{
+	color: white;
+	background: black;
+	transition-duration: 0.6s;
+}
+
+.col-md-6{
+	margin-top: 30px;
+}
+
+
+.footer{
+	background-color: black;
+	height: 50px;
+	margin-top: 50px;
+	color: #fff;
+	padding-top: 10px;
+
+}
