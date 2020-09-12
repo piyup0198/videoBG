@@ -49,31 +49,39 @@
 	text-decoration: none;
 }
 
-
-.navi{
-	font-size: 30px
+.nav-bar{
+	top: 0;
+	position: sticky;
+	z-index: 2;
 }
 
-nav{
+.navbar{
+	background-color: black;
+}
+
+.navbar-brand{
+	height: 50px;
+}
+
+.nav-bar .fa-bar{
+	font-size: 50px;
+	color: white;
+}
+.navbar-togglet{
+	outline: none ! important;
+}
+
+.navbar-nav{
+	float: right;
 	text-align: right;
-	background: black;
-	height: 8vh;
-}
-
-.bar{
-	padding-left: 30px;
-	color: white;
 
 }
 
-.bar:hover{
-	text-decoration: none;
-	color: white;
+.nav-link{
+	color: white! important;
+	margin-right: 20px;
 }
 
-.bar:active{
-	color: blue;
-}
 
 .btn{
 	text-decoration: none;
